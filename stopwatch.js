@@ -17,6 +17,7 @@ document.getElementById("stop").addEventListener("click", () => {
 
 document.getElementById("reset").addEventListener("click", () => {
   clearInterval(interval);
+  [hours, minute, second] = [0, 0, 0];
   timer.textContent = "00 : 00 : 00";
 });
 
