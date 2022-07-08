@@ -5,22 +5,30 @@
 }
 
 .TimeContent {
-  padding: 100px;
   text-align: center;
   font-size: 25px;
   background: rgb(211, 206, 206);
   border-radius: 250px;
+  padding: 120px;
 }
+
 
 .TimeContent p {
   padding: 10px;
   margin: 3px;
+  display: inline-block;
+ 
 }
 
 .time {
   display: flex;
-  justify-content: center;
   text-align: center;
+  justify-content: center;
+}
+
+.timestyle {
+  position: absolute;
+  margin-left: 530px;
 }
 
 #start {
